@@ -12,6 +12,9 @@ namespace JWT.Controllers
         {
             ViewBag.Title = "Home Page";
 
+            ViewBag.Home = "Home Page";
+
+
             return View();
         }
     }
